@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Layout.master.cs" Inherits="WebOrganizerTask.Layout" %>
+
+<html>
+<head runat="server">
+    <title>Органайзер задач</title>
+    <link href="Styles/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container text-center">
+        <form id="MainForm" runat="server">
+            <asp:ScriptManager ID="ScriptManagerAjax" runat="server">
+            </asp:ScriptManager>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid row justify-content-md-center">
+                    <div class="col-md-auto">
+                        <a class="navbar-brand">Меню</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Переключатель навигации">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="Main.aspx">Главная</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="ListTask.aspx">Список задач</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="NewTask.aspx">Новая задача</a>
+                                </li>
+                                <asp:LoginView ID="LoginViewControl" runat="server">
+                                    <LoggedInTemplate>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <asp:LoginName ID="LoginNameControl" runat="server" />
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <asp:Button type="button" CssClass="btn" ID="LogoutButton" runat="server" Text="Выйти" OnClick="LogoutButton_Click" /></li>
+                                            </ul>
+                                        </li>
+                                    </LoggedInTemplate>
+                                    <AnonymousTemplate>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="Login.aspx">Войти</a>
+                                        </li>
+                                    </AnonymousTemplate>
+                                </asp:LoginView>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="container text-center">
+                <asp:ContentPlaceHolder ID="MainContentPlaceHolder" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </form>
+    </div>
+    <script src="Styles/js/bootstrap.bundle.js"></script>
+</body>
+</html>

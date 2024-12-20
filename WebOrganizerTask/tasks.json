@@ -1,0 +1,140 @@
+[
+  {
+    "User":  "admin",
+    "ID": "446191d3-439e-40a8-b735-cca834bdc8ab",
+    "Name": "Приготовить суп",
+    "DateStart": "2023-12-24T15:09:59.3408003+03:00",
+    "DateEnd": null,
+    "Progress": "Начато",
+    "Periodicity": "Ежедневно",
+    "Importance": "Важно",
+    "Resourses": [
+      {
+        "ID": "2e2a8bb6-de64-4551-8987-f9f5180a74f8",
+        "Name": "Кастрюля",
+        "Quantity": 1.0
+      },
+      {
+        "ID": "fd407237-1446-4318-b5c6-b65ac6452479",
+        "Name": "Нож",
+        "Quantity": 1.0
+      },
+      {
+        "ID": "d5101623-781a-410f-b5da-a43dfa3883ee",
+        "Name": "Продукты",
+        "Quantity": 8.0
+      }
+    ],
+    "Persons": []
+  },
+  {
+    "User": "admin",
+    "ID": "06f9df4a-95e7-4071-9875-8d6e6a39236a",
+    "Name": "Заняться уборкой",
+    "DateStart": "2023-12-24T15:09:59.353805+03:00",
+    "DateEnd": null,
+    "Progress": "Начато",
+    "Periodicity": "Ничего",
+    "Importance": "Не важно",
+    "Resourses": [
+      {
+        "ID": "ba04117a-bf34-4a58-8f7c-92635dd73197",
+        "Name": "Метла",
+        "Quantity": 3.0
+      }
+    ],
+    "Persons": [
+      {
+        "ID": "045cbef2-2616-43c1-9435-a8af0a59fa38",
+        "FirstName": "Федор",
+        "LastName": "Иванов",
+        "Email": "",
+        "Phone": ""
+      },
+      {
+        "ID": "206bc7d4-0748-436c-8589-6ce8b511b943",
+        "FirstName": "Дмитрий",
+        "LastName": "Петров",
+        "Email": "",
+        "Phone": ""
+      }
+    ]
+  },
+  {
+    "User": "admin",
+    "ID": "fee05137-d530-48e2-9013-ac4176e0fdd8",
+    "Name": "Сходить в магазин",
+    "DateStart": "2023-12-25T00:00:00",
+    "DateEnd": "2023-12-25T00:00:00",
+    "Progress": "Закрыта",
+    "Periodicity": "Ничего",
+    "Importance": "Важно",
+    "Resourses": [
+      {
+        "ID": "cebeb1a9-c802-433b-a97f-c74968de6bf1",
+        "Name": "Пакет",
+        "Quantity": 1.0
+      },
+      {
+        "ID": "fe925518-4cf8-4bfb-a41d-60e6e4c8153d",
+        "Name": "Список покупок",
+        "Quantity": 1.0
+      }
+    ],
+    "Persons": []
+  },
+  {
+    "User": "admin",
+    "ID": "5cab7458-6cb5-48d0-8cfa-cf6f9a08eaed",
+    "Name": "Найти новый ПК",
+    "DateStart": "2023-12-28T00:00:00",
+    "DateEnd": "2024-01-02T00:00:00",
+    "Progress": "Добавлена",
+    "Periodicity": "Ничего",
+    "Importance": "Важно",
+    "Resourses": [],
+    "Persons": []
+  },
+  {
+    "User": "admin",
+    "ID": "db7cbadd-2b13-4548-841c-470ade1dc43a",
+    "Name": "Испечь торт",
+    "DateStart": null,
+    "DateEnd": null,
+    "Progress": "Добавлена",
+    "Periodicity": "Ничего",
+    "Importance": "Важно",
+    "Resourses": [],
+    "Persons": []
+  },
+  {
+    "User": "admin",
+    "ID": "26790ce0-8018-4720-b3aa-097abfab3d94",
+    "Name": "Почистить телефон",
+    "DateStart": null,
+    "DateEnd": null,
+    "Progress": "Добавлена",
+    "Periodicity": "Ничего",
+    "Importance": "Не важно",
+    "Resourses": [],
+    "Persons": []
+  },
+  {
+    "User": "admin",
+    "ID": "3482c579-c0a3-4243-bc00-a786475c3c49",
+    "Name": "Помыть посуду",
+    "DateStart": "2023-12-26T00:00:00",
+    "DateEnd": null,
+    "Progress": "Добавлена",
+    "Periodicity": "Ничего",
+    "Importance": "Не важно",
+    "Resourses": [
+      {
+        "ID": "5629e69a-9a3f-4b5a-a2b5-c5d88934dcf9",
+        "Name": "Моющее средство",
+        "Quantity": 0.0
+      }
+    ],
+    "Persons": []
+  }
+]
